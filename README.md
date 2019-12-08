@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Udacity Nanodegree Program - Introduction to Machine Learning : Project II- build an Image Classifier
 
 This repo contains code for my final submission for the Udacity's AI Programming with Python Nanodegree program- Project II, IMage Classifier.
@@ -12,14 +11,14 @@ This repo contains code for my final submission for the Udacity's AI Programming
  4. Completed train.py python CLI executable program - takes 3 mandatory & 8 optional CLI arguments to build and train a model using torchvision models as base
  5. Complementary pyarg.py file to train.py that contains all the argprase managed command line arguments
  6. A helper python file- borrwed from  the Intro to ML training that helps with plotting visuals: helper.py
- 7. An Example checkpoint files - for saved model (written from train.py):
+ 7. An Example checkpoint file - for saved model - differnet than the Default vgg16 torchvision. (alexnet), written out from train.py:
 
-### A vgg16 model with following arguments: model_vgg16_checkpoint.pth
+### A alexnet model with following arguments: model_alexnet_checkpoint.pth
  	 	Normalizing means values:  [0.485, 0.456, 0.406]
 		Normalizing standard dev values:  [0.229, 0.224, 0.225]
 		Batch size:  72
 		Classifier hidden units : 612
-		Network Architetcure : vgg16
+		Network Architetcure : alexnet
 		Learning rate:  0.002
 		Device:  cuda
 		Number of epochs:  2
@@ -27,4 +26,3 @@ This repo contains code for my final submission for the Udacity's AI Programming
  9. The image classID-to-image class name file used in building project deliverables for the project from the  102 Category Flower Dataset, Maria-Elena Nilsback and Andrew Zisserman (http://www.robots.ox.ac.uk/~vgg/data/flowers/102/index.html) : cat_to_name.json
  10. The /assets  folder that includes a couple images for the Notebook 
  11. This README.md file
-=======
